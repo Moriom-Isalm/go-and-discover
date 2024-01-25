@@ -1,18 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;800&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
 body {
     font-family: 'Mulish', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Work Sans', sans-serif;
+max-width: 1200px;
+margin: 0 auto;
+border: 2px solid red;
 }
+
 /* navbar styles start */
-.nav-container{
+.header-section{
     display: flex;
-    border: 2px solid blue;
+}
+.nav-container {
+     min-height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 60%;
+}
+.nav-container img{
+    width: 48px;
+    height: 56px;
 }
 .nav-container h3 {
+    font-size: 2.20rem;
+    font-weight: 800px;
+}
+.special {
+    color: #FF5400;
+}
+.nav-items ul {
+    list-style: none;
+}
+.nav-items {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.nav-items a {
+    text-decoration: none;
+    color: #424247;
+}
+/* navbar section styles end */
+
+/* Banner section styles start */
+.banner{
+    background-image: url('./');
+}
+.banner-heading{
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+}
+.banner-description{
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+}
+.banner-element{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.icons{
+    width: 20px;
+height: 20px;
+padding-top: 15px;
+gap: 3px;
+}
+.box-3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/* banner section style end */
+/* 3rd section style start */
+.mountains{
+    padding-top: 100px;
+    display: flex;
+    gap: 70px;
+}
+.mountains h2 {
     color: #131318;
-    font-size: 30px;
-    font-weight: 700;
-   padding-left: 20px;
+font-size: 40px;
+font-weight: 800;
+}
+.btn-primary {
+    border-radius: 5px;
+background: #FF5400;
+width: 174px;
+height: 52px;
+color: white;
+border: none;
 }

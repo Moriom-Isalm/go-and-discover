@@ -1,0 +1,16 @@
+@media screen and (max-width:600px) {
+    .body{
+       padding: 0 auto;
+    }
+    .header-section{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    
+    .nav-items {
+       justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+     
+    }
+}
