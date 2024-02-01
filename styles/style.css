@@ -252,3 +252,59 @@ background-repeat: no-repeat;
 font-size: 24px;
 font-weight: 700;
 }
+/* newletter s4ection star */
+.newsletter-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+
+}
+.newletter-content{
+ border: 2px solid #FF5400;
+ border-radius: 10px;
+ width: 500px;
+ height: 380px;
+ justify-content: space-between;
+ padding: 30px;
+}
+.new-ltr-head {
+    font-size: 36px;
+color: #131318;
+font-weight: 800;
+}
+.input-container{
+   display: grid;
+  gap: 20px;
+  width: 430px;
+  height: 200px;
+  border-radius: 5px;
+  border: none;
+}
+.input-content{
+    padding-top: 30px;
+    display: grid;
+    gap: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-second{
+    background: #FF5400;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+.discount{
+   position: relative;
+   
+}
+.btn-discount{
+    background: #FF5400;
+    color: #FFF;
+    width: 250px;
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+}
+
